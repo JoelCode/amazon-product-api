@@ -1,5 +1,8 @@
 import {asin} from '../lib';
 import {inspect} from 'util';
+const rp = require('request-promise')
+const url = require('url')
+jest.mock('request-promise-native')
 
 describe('adapterAmazonBuddy', () => {
     // @ts-ignore

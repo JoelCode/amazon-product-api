@@ -4,5 +4,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html'],
-  setupFiles: ['./environments/development.js']
+  setupFiles: ['./environments/development.js'],
 };

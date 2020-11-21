@@ -1,17 +1,22 @@
 {
   "compilerOptions": {
-    "types": ["node", "jest"]
+    "types": [
+      "node",
+      "jest"
+    ]
   },
-  "include": ["**/*.ts"],
+  "include": [
+    "**/*.ts"
+  ],
   "rules": {
     "arrow-return-shorthand": true,
+    "allowJs": true,
     "callable-types": true,
     "class-name": true,
     "deprecation": {
       "severity": "warn"
     },
     "forin": true,
-    "allowJs": true,
     "import-blacklist": [
       true,
       "rxjs/Rx"

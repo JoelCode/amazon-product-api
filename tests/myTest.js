@@ -1,3 +1,4 @@
-const {asin} = require('../lib');
+const { asin } = require('../lib/index');
 
-asin({asin: 'B07MGMGH9D'}).then((x) => console.log(x))
+asin({ asin: 'B00EXYG7FG' })
+  .then((x) => console.log(x));
